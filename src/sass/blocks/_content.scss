@@ -1,0 +1,133 @@
+.content {
+    margin: 0 auto;
+}
+.first {
+    &__wrp {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        grid-template-rows: 600px;
+        column-gap: 30px;
+        align-items: center;
+    }
+    &__descr {
+        margin: 60px 40px;
+        display: flex;
+        flex-direction: column;
+        z-index: 6;
+    }
+    &__img {
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        object-fit: cover;
+        z-index: 6;
+        img {
+            width: 100%;
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        &:before {
+            content: '01';
+            position: absolute;
+            left: 110px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 240px;
+            line-height: 240px;
+            color: #FFFFFF;
+            opacity: 0.1;
+        }
+    }
+}
+
+.second {
+    margin-top: 100px;
+    &__wrp {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        grid-template-rows: 600px;
+        column-gap: 100px;
+        align-items: center;
+    }
+    &__descr {
+        margin: 60px 40px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    &__img {
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        object-fit: cover;
+        img {
+            width: 100%;
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        &:before {
+            content: '02';
+            position: absolute;
+            left: 45%;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 240px;
+            line-height: 240px;
+            color: #FFFFFF;
+            opacity: 0.1;
+        }
+    }
+}
+.third {
+    margin-top: 100px;
+    &__wrp {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        grid-template-rows: 600px;
+        column-gap: 30px;
+        align-items: center;
+    }
+    &__descr {
+        position: relative;
+        margin: 60px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__img {
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        object-fit: cover;
+        img {
+            width: 100%;
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        &:before {
+            content: '03';
+            position: absolute;
+            left: -30%;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 240px;
+            line-height: 240px;
+            color: #FFFFFF;
+            opacity: 0.1;
+        }
+    }
+}

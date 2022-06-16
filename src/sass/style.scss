@@ -1,0 +1,73 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');;
+
+@import 'base/variables';
+
+@import 'blocks/main';
+@import 'blocks/content';
+@import 'blocks/footer';
+
+* {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    a {
+        text-decoration: none; 
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
+.container {
+    max-width: 1016px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.wrapper__blue {
+    top: 1400px;
+    background-color: #0B1D26;;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+.subtitle {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: $gold-color;
+}
+
+.title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    &-fs88 {
+        font-size: 88px;
+        text-transform: capitalize;
+    }
+}
+.divider {
+    width: 72px;
+    height: 2px;
+    left: 0px;
+    top: 10px;
+    background: $gold-color;
+}
+
+h4 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
